@@ -20,6 +20,7 @@ public class LoginTest extends BaseLib{
 		lf.verifyValidLoginMsg();
 	}
 	
+	//this is inalid script
 	@Test(priority=2)
 	public void invalidLogin()  {
 		ExcelUtilities eu=new ExcelUtilities("./testdata/testdata.xlsx");
